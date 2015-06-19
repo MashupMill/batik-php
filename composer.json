@@ -1,0 +1,18 @@
+{
+    "name": "mashup-mill/batik",
+    "description": "PHP interface for running commands to Batik",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Branden Cash",
+            "email": "ammmze@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit" : "3.7.32"
+    },
+    "autoload": {
+        "psr-0": {"MashupMill\\Batik\\": "src/main/php/"}
+    }
+}
